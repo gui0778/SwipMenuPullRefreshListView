@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" >
+        <TextView
+    android:layout_width="fill_parent"
+    android:layout_marginTop="20dip"
+    android:text="@string/listview_title_test"
+    android:layout_height="wrap_content" />
+        
+                <TextView
+    android:layout_width="fill_parent"
+    android:layout_marginTop="20dip"
+    android:text="@string/listview_title_test_1"
+    android:layout_height="wrap_content" />
+    <com.slimo.pullrefreshlistview.SwipeMenuPullRefreshListView
+       android:id="@+id/listview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    </com.slimo.pullrefreshlistview.SwipeMenuPullRefreshListView>
+    </LinearLayout>
